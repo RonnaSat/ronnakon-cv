@@ -1,0 +1,85 @@
+seo:
+  title: "Ronnakon Nisaensat - Software Developer"
+  description: "Highly skilled full-stack developer with over two years of experience delivering robust and scalable web applications."
+hero:
+  title: "Ronnakon Nisaensat"
+  description: "Software Developer"
+  links: []
+  images: [] # No images provided
+about:
+  title: "Profile"
+  description: |
+    I am a highly skilled full-stack developer with over two years of experience delivering robust and scalable web applications. I possess a deep understanding of both front-end and back-end technologies, allowing me to craft seamless user experiences and efficient server-side logic. I am also proficient in deploying machine learning models into many production environments. I am passionate about staying current with industry trends and exploring emerging technologies to enhance my skillset.
+experience:
+  title: "Work Experience"
+  items:
+    - position: "Software Developer"
+      date: "April 2024 - Present"
+      company:
+        name: "S3 Invent"
+        logo: "i-lucide-briefcase"
+        url: "#"
+        color: "gray"
+      description:
+        - "Designed, developed, and maintained multiple web applications using a variety of front-end and back-end technologies."
+        - "Developed RESTful APIs using Golang, a robust and efficient programming language, to handle back-end logic and data management."
+        - "Deployed and monitored machine learning models, integrating them seamlessly into web applications."
+        - "Successfully launched and managed several web applications, ensuring optimal performance, scalability, and security."
+    - position: "Internship"
+      date: "December 2022 - March 2024"
+      company:
+        name: "S3 Invent"
+        logo: "i-lucide-graduation-cap"
+        url: "#"
+        color: "gray"
+      description:
+        - "Assisted in the development and testing of various software components."
+        - "Gained hands-on experience with Vue and Golang for web application development"
+education:
+  title: "Education"
+  items:
+    - institution: "University"
+      date: "2021 - 2024"
+      degree: "Digital Industry Integration, CAMT, CMU"
+    - institution: "High School"
+      date: "2015 - 2021"
+      degree: "Princess Chulabhorn Science High School Chiang Rai"
+skills:
+  title: "Skills"
+  categories:
+    - name: "Programming Languages"
+      items:
+        - "Golang"
+        - "JavaScript"
+        - "TypeScript"
+        - "Python"
+        - "SQL"
+        - "Dart"
+    - name: "Frameworks & Tools"
+      items:
+        - "Vue"
+        - "Echo"
+        - "TorchServe"
+        - "PostgreSQL"
+        - "React"
+        - "Tailwind"
+        - "Flutter"
+        - "Node Express"
+        - "VSCode"
+        - "Android Studio"
+        - "Docker"
+        - "Microsoft Azure"
+        - "Nginx"
+        - "Git (GitHub, Bitbucket)"
+    - name: "Soft Skills"
+      items:
+        - "Problem-solving skills"
+        - "Teamwork"
+        - "Adaptability"
+        - "Effective Communication"
+        - "Organization and time management skills"
+contact:
+  email: "ronnakornniseansut@gmail.com"
+  phone: "095-682-3894"
+  location: "Ladprao, Bangkok"
+  name: "Ronnakon Nisaensat"
