@@ -27,7 +27,7 @@ export default defineAppConfig({
     colorMode: false,
     links: [{
       'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/ronnakon-cv', // Assuming this is the user's github based on repo name
+      'to': 'https://github.com/RonnaSat',
       'target': '_blank',
       'aria-label': 'Ronnakon on GitHub'
     }]

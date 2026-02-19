@@ -8,12 +8,13 @@ defineProps<{
 
 <template>
   <UPageSection
+    id="about"
     :title="page.about.title"
     :description="page.about.description"
     :ui="{
-      container: '!p-0',
-      title: 'text-left text-xl sm:text-xl lg:text-2xl font-medium',
-      description: 'text-left mt-3 text-sm sm:text-md lg:text-sm text-muted'
+      container: 'max-w-4xl mx-auto',
+      title: 'text-2xl font-bold',
+      description: 'text-justify mt-4 text-gray-500 dark:text-gray-400'
     }"
   />
 </template>

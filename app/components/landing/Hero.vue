@@ -17,6 +17,7 @@ defineProps<{
     }"
   >
     <template #headline>
+      <!--
       <Motion
         v-if="global.picture?.light || global.picture?.dark"
         :initial="{
@@ -41,6 +42,7 @@ defineProps<{
           :alt="global.picture?.alt!"
         />
       </Motion>
+      -->
     </template>
 
     <template #title>
