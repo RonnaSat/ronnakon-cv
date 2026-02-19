@@ -17,6 +17,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .dark {
   ::selection {
     color: #ffffff;

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { IndexCollectionItem } from '@nuxt/content'
 
-const { footer, global } = useAppConfig()
+// const { footer, global } = useAppConfig()
 
 defineProps<{
   page: IndexCollectionItem
@@ -88,6 +88,7 @@ defineProps<{
     </template>
 
     <template #links>
+      <!--
       <Motion
         v-if="page.hero.links && page.hero.links.length > 0"
         :initial="{
@@ -157,6 +158,7 @@ defineProps<{
           />
         </Motion>
       </div>
+      -->
     </template>
 
     <UMarquee
