@@ -87,6 +87,7 @@ useSeoMeta({
             <ULink
               :to="project.url"
               class="text-sm text-primary flex items-center"
+              :aria-label="`View ${project.title} project`"
             >
               View Project
               <UIcon

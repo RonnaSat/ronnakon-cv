@@ -1,0 +1,3 @@
+## 2024-03-24 - Contextualize Action Links
+**Learning:** Repetitive action links like "View Project" or generic icon buttons ("Back" on the blog) lack semantic clarity for screen reader users when multiple exist on a page. While visually obvious due to layout grouping, structurally they are ambiguous. Using Nuxt UI's dynamic bindings (`:aria-label`) provides an elegant way to inject surrounding context (like item titles) into these generic controls.
+**Action:** Always check components rendering lists with identical CTA texts. Enhance them by dynamically generating contextual `aria-label`s based on the list item's unique data.
