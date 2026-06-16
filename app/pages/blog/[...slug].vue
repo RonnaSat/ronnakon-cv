@@ -58,6 +58,7 @@ const formatDate = (dateString: string) => {
         <ULink
           to="/blog"
           class="text-sm flex items-center gap-1"
+          aria-label="Back to blog overview"
         >
           <UIcon name="lucide:chevron-left" />
           Blog

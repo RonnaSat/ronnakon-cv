@@ -110,6 +110,7 @@ function formatDate(dateString: string): string {
               v-if="event.url"
               target="_blank"
               :label="event.category === 'Podcast' ? 'Listen' : 'Watch'"
+              :aria-label="`${event.category === 'Podcast' ? 'Listen to' : 'Watch'} ${event.title}`"
               variant="link"
               class="p-0 pt-2 gap-0"
             >
