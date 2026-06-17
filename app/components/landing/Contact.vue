@@ -36,7 +36,13 @@ defineProps<{
             name="i-lucide-phone"
             class="w-5 h-5 text-primary"
           />
-          <span class="font-medium">{{ page.contact.phone }}</span>
+          <a
+            v-if="page.contact.phone"
+            :href="`tel:${page.contact.phone.replace(/[^0-9+]/g, '')}`"
+            class="hover:underline hover:text-primary transition-colors font-medium"
+            aria-label="Call phone number"
+          >{{ page.contact.phone }}</a>
+          <span v-else class="font-medium">Not provided</span>
         </div>
         <div class="flex items-center gap-3">
           <UIcon
