@@ -1,0 +1,3 @@
+## 2024-06-19 - Actionable Contact Info & Copy Buttons
+**Learning:** Adding standard `tel:` and Google Maps search queries to contact info makes the site far more usable on mobile. Furthermore, using a mobile-first approach where "copy to clipboard" buttons are always visible on small screens but hidden behind hover states on large screens ensures the feature is accessible to all users without cluttering the desktop UI.
+**Action:** Always wrap phone numbers in `tel:` links and physical addresses in map links. When adding hover-based action buttons to list items, use the pattern `opacity-100 sm:opacity-0 sm:group-hover:opacity-100 focus-visible:opacity-100` to ensure mobile compatibility.
