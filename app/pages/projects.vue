@@ -91,7 +91,7 @@ useSeoMeta({
               View Project
               <UIcon
                 name="i-lucide-arrow-right"
-                class="size-4 text-primary transition-all opacity-0 group-hover:translate-x-1 group-hover:opacity-100"
+                class="size-4 text-primary transition-all opacity-100 sm:opacity-0 group-hover:translate-x-1 group-hover:opacity-100"
               />
             </ULink>
           </template>
