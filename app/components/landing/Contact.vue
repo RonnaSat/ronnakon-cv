@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { IndexCollectionItem } from '@nuxt/content'
+import { copyToClipboard } from '~/utils/clipboard'
 
 defineProps<{
   page: IndexCollectionItem
@@ -21,7 +22,7 @@ defineProps<{
         <p class="text-lg">
           Feel free to reach out for collaborations or just to say hi!
         </p>
-        <div class="flex items-center gap-3">
+        <div class="flex items-center gap-3 group">
           <UIcon
             name="i-lucide-mail"
             class="w-5 h-5 text-primary"
@@ -30,13 +31,31 @@ defineProps<{
             :href="`mailto:${page.contact.email}`"
             class="hover:underline hover:text-primary transition-colors font-medium"
           >{{ page.contact.email }}</a>
+          <UButton
+            icon="i-lucide-copy"
+            color="neutral"
+            variant="ghost"
+            size="xs"
+            aria-label="Copy email address"
+            class="sm:opacity-0 sm:group-hover:opacity-100 focus-visible:opacity-100 transition-opacity"
+            @click="copyToClipboard(page.contact.email, 'Email copied to clipboard')"
+          />
         </div>
-        <div class="flex items-center gap-3">
+        <div class="flex items-center gap-3 group">
           <UIcon
             name="i-lucide-phone"
             class="w-5 h-5 text-primary"
           />
           <span class="font-medium">{{ page.contact.phone }}</span>
+          <UButton
+            icon="i-lucide-copy"
+            color="neutral"
+            variant="ghost"
+            size="xs"
+            aria-label="Copy phone number"
+            class="sm:opacity-0 sm:group-hover:opacity-100 focus-visible:opacity-100 transition-opacity"
+            @click="copyToClipboard(page.contact.phone, 'Phone number copied to clipboard')"
+          />
         </div>
         <div class="flex items-center gap-3">
           <UIcon
